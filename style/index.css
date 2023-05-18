@@ -1,0 +1,11 @@
+.photo{
+    height: 20rem;
+    border-radius: 40% 40% 30% 30%;
+}
+
+.navbar-inverse {
+    background-color: #826aed;
+    border-color:  #826aed;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+}

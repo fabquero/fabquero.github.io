@@ -9,3 +9,12 @@
 	padding-bottom: 3rem;
 	padding-top: 3rem;
 }
+
+.aligned{
+    display: flex;
+}
+
+.languagepict{
+    margin-top: 10px;
+    margin-right: 5px;
+}

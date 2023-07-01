@@ -39,7 +39,8 @@
   <body>
 
     <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top aligned">
+    <header>
+    <nav class="navbar navbar-inverse navbar-static-top aligned">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,39 +51,38 @@
           <a class="navbar-brand" href="index.html">Fabien Quero</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Tutorial</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-            <li>
-               
-            </li>
-          </ul>
+          <menu class="nav navbar-nav navbar-right">
+            <li><a href="./tutoriallist.html">Tutorial</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <!--<li><a href="./contact.html">Contact</a></li>-->
+          </menu>
         </div><!--/.nav-collapse -->
       </div>
       <a href="../index.html" class="navbar-right" ><img src="../image/france.png" class="languagepict" width="30" height="30" alt="french translation"></a>
-    </div>
+    </nav>
+  </header>
 
 	<!-- ---- Welcome Section --- -->
-	<div id="ww">
+  <main>
+	<section id="ww">
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
 					<img src="../image/quero_fabien.jpg" class="photo" alt="Fabien">
 					<h1>Hi...</h1>
-                    <p>...My name is Fabien. I am a student at the University of Paris-Saclay. I am currently in the Magister degree of computer science and in the first year of my master's degree. More precisely, I study quantum computer science, distributed computer science, and high-performance computing in the master's degree called: Quantum and distributed computer science.</p>
+                    <p>...My name is Fabien. I am a <strong>student at the University of Paris-Saclay</strong>. I am currently in the Magister degree of computer science and in the first year of my master's degree. More precisely, I study quantum computer science, distributed computer science, and high-performance computing in the master's degree called: Quantum and distributed computer science.</p>
                     <p>In the beginning, I chose this master's degree for the quantum computing part. I was particularly interested in this field after reading quantum books. Nowadays, I have finally discovered a passion for distributed computer science.</p>
                     <p>Thus, I have decided to head for this domain. I have started a "Study and research work" at the University of Paris-Saclay on the agreement with mobile agents. Now, I do a research internship with <a href="https://scbrandt.github.io/">Sebastian Brandt</a> on distributed coloring.</p>
-                    <p>Talking about distributed computer science, you could find on this webpage some tutorials, tips, or even some courses (from my reading or my courses). Not only on distributed computer science but also on all the subjects for which I have an interest. I could write about lambda calculus, graph theory, and quantum computer science...</p>
+                    <p>Talking about distributed computer science, you could find on this webpage some <strong>tutorials</strong>, tips, or even some <strong>courses</strong> (from my reading or my courses). Not only on distributed computer science but also on all the subjects for which I have an interest. I could write about lambda calculus, graph theory, and quantum computer science...</p>
                     <p>Okay, I think that's enough about me. Have fun reading the articles on this website. &#128516; </p>
 				</div><!-- /col-lg-8 -->
 			</div><!-- /row -->
 	    </div> <!-- /container -->
-	</div><!-- /ww -->
-
+  </section><!-- /ww -->
+</main>
 	<!-- ---------------------------- -->
-	<div id="footer">
+	<footer id="footer">
 		<div class="container">
 			<div class="row">
 				<!--
@@ -115,7 +115,7 @@
 			</div>
 		
 		</div>
-	</div>
+	</footer>
 	
 
     <!-- Bootstrap core JavaScript

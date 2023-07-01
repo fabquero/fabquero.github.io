@@ -39,7 +39,8 @@
   <body>
 
     <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top aligned">
+  <header>
+    <nav class="navbar navbar-inverse navbar-static-top aligned">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,39 +51,42 @@
           <a class="navbar-brand" href="index.html">Fabien Quero</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Tutoriel</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+          <menu class="nav navbar-nav navbar-right">
+            <li><a href="./fr/listetutoriel.html">Tutoriel</a></li>
+            <li><a href="./fr/about.html">À propos</a></li>
+            <li><a href="./fr/blog.html">Blog</a></li>
+            <!--<li><a href="./fr/contact.html">Contact</a></li>-->
             <li>
                
             </li>
-          </ul>
+          </menu>
         </div><!--/.nav-collapse -->
       </div>
       <a href="./en/index.html" class="navbar-right" ><img src="image/united-kingdom.png" class="languagepict" width="30" height="30" alt="english translation"></a>
-    </div>
+    </nav>
+  </header>
 
 	<!-- ---- Welcome Section --- -->
-	<div id="ww">
+  <main>
+	  <section id="ww">
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
 					<img src="image/quero_fabien.jpg" class="photo" alt="Fabien">
 					<h1>Salut...</h1>
-                    <p>...Je m'appelle Fabien. Je suis étudiant à l'Université de Paris-Saclay. Je suis actuellement en Magistère d'informatique et en première année de Master. Plus particulièrement, j'étudie l'informatique quantique, distribuée et haute performance dans le master Quantum and distributed computer science.</p>
+                    <p>...Je m'appelle Fabien. Je suis <strong>étudiant à l'Université de Paris-Saclay</strong>. Je suis actuellement en Magistère d'informatique et en première année de Master. Plus particulièrement, j'étudie l'informatique quantique, distribuée et haute performance dans le master Quantum and distributed computer science.</p>
                     <p>Au départ, j'ai rejoint ce master avant tout pour l'informatique quantique. J'y avais un grand intérêt suite aux lectures que j'avais pu faire sur ce sujet. Aujourd'hui, j'ai finalement découvert une véritable passion pour l'informatique distribuée.</p>
                     <p>J'ai donc décidé d'orienter mes études vers ce domaine. Notamment en réalisant ce qu'on appelle Travaux d'Étude et de Recherche à l'Université Paris-Saclay sur le sujet de l'accord entre agent mobile. À l'heure actuelle, je suis en stage de recherche avec <a href="https://scbrandt.github.io/">Sebastian Brandt</a> sur la coloration distribuée.</p>
-                    <p>En parlant d'informatique distribuée, vous pourrez retrouver sur ce site quelques tutos, ou tips voire des cours (provenant de mes lectures ou de ce que j'ai pu apprendre). Pas seulement sur l'informatique distribuée, mais sur tout les sujets qui m'intéressent. J'écrirais sûrement à propos de lambda-calcul, de théorie des graphes, d'informatique quantique...</p>
+                    <p>En parlant d'informatique distribuée, vous pourrez retrouver sur ce site quelques <strong>tutos</strong>, ou tips voire des <strong>cours</strong> (provenant de mes lectures ou de ce que j'ai pu apprendre). Pas seulement sur l'informatique distribuée, mais sur tout les sujets qui m'intéressent. J'écrirais sûrement à propos de lambda-calcul, de théorie des graphes, d'informatique quantique...</p>
                     <p>Je pense que c'est à peu près tout ? Amusez vous bien en lisant les articles de ce site. &#128516; </p>
 				</div><!-- /col-lg-8 -->
 			</div><!-- /row -->
 	    </div> <!-- /container -->
-	</div><!-- /ww -->
+    </section><!-- /ww -->
+  </main>
 
 	<!-- ---------------------------- -->
-	<div id="footer">
+	<footer id="footer">
 		<div class="container">
 			<div class="row">
 				<!--
@@ -115,7 +119,7 @@
 			</div>
 		
 		</div>
-	</div>
+	</footer>
 	
 
     <!-- Bootstrap core JavaScript
